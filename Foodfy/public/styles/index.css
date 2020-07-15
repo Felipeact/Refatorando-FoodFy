@@ -1,0 +1,166 @@
+@import "https://fonts.googleapis.com/css2?family=Lora&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header .menu {
+    display: flex;
+
+    margin: 38px 0px 30px 180px;
+}
+
+header .menu p {
+    width: 90.6px;
+    opacity: 100%;
+    margin-right: 122.4px;
+    height: 26.9px;
+
+    font-family: 'Lora', serif;
+}
+
+header .menu a {
+    margin-right: 30px;
+    text-decoration: none;
+
+    font-size: 16px;
+    font-family: 'Roboto-Regular';
+    color: #111111;
+
+    width: 62px;
+    height: 19px
+    ;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+main .principal {
+    width: 75%;
+    height: 366px;
+
+    border-radius: 30px;
+    background: #FBDFDB; 
+    box-sizing: border-box;
+
+}
+
+main .principal h3 {
+    margin: 117px 575px 0 60px;
+    height: 38px;
+    width: 305px;
+
+    font-size: 32px;
+
+    font-family: 'Roboto-Bold';
+    
+}
+
+main .principal p {
+    margin-top: 10px;
+    margin-left: 60px;
+
+    width: 316px;
+    height: 84px;
+
+    opacity: 0.7;
+
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+main .principal img {
+    float: right;
+    margin-right: 100px;
+    margin-top: 66px;
+    
+}
+
+section {
+    width: 86%;
+}
+
+section h4 {
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+    
+    font-size: 24px;
+    font-family: Roboto-Bold;
+}
+
+section .acessadas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 75%;
+
+    margin-left: 178px;
+}
+
+section .acessadas .content-img {
+    width: 300px;
+    height: 210px;
+
+}
+
+section .acessadas .content-img .img {
+    border-radius: 15px;
+    width: 300px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+section .acessadas .content-img .titule {
+    width: 249px;
+    height: 21px;
+
+    font-size: 'Roboto', sans-serif;;
+    font-size: 18px;
+
+    color: #111111;
+}
+
+section .acessadas .content-img .titule2 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+    width: 114px;
+    height: 16px;
+
+    font-family: Roboto-Regular; 
+    font-size: 14px;
+
+    color: #777777;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background: #EEEEEE;
+    bottom: 0;
+}
+
+footer .footer {
+    width: 1400px;
+    height: 62px;
+}
+
+footer .footer p{
+    margin-top: 23px;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    
+}

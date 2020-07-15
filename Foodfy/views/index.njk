@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <p>FoodFy</p>
+            <a href="/sobre">Sobre</a>
+            <a href="/receitas">Receitas</a>
+        </div>
+    </header>
+    <main>
+        <div class="principal">
+            <img src="/assets/chef.png" alt="chef">
+            <h3>As melhores receitas</h3>
+            <p>Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro.</p>
+            
+        </div>
+    </main>
+    <section>
+        <h4>Mais acessadas</h4>
+        <div class="acessadas">
+            {% for item in items %}
+            <div class="content-img">
+                <img src="{{item.image}}" alt="Buguer" class="img">
+                <div>
+                    <p class="titule">{{item.title}}<p>
+                    <p class="titule2">{{item.author}}</p>
+                </div>
+            </div>   
+            {% endfor %}
+         </div>
+            
+    </section>
+    
+    <footer>
+        <div class="footer">
+            <p>Todos Direitos reservados, recitas Foodfy</p>
+        </div>
+    </footer>
+</body>
+</html>
